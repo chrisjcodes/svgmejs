@@ -1,0 +1,18 @@
+{
+    "name": "svgmejs",
+    "version": "0.0.1",
+    "description": "And tool for creating an object of svg markup out of a directory of svg files",
+    "main": "cli.js",
+    "bin": {
+        "svgme": "cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Chris Johnson",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^2.15.0",
+        "glob": "^7.1.2"
+    }
+}
